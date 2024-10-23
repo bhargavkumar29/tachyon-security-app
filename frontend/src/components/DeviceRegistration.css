@@ -1,0 +1,29 @@
+h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
