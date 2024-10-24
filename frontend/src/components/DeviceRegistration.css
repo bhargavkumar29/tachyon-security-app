@@ -1,29 +1,30 @@
-h2 {
-    color: #4CAF50;
-    margin-bottom: 15px;
-  }
-  
-  div {
-    margin-bottom: 15px;
-  }
-  
-  input {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 8px;
-    width: 100%;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
+/* DeviceRegistration.css & DeviceAvailability.css */
+
+/* Container for side-by-side layout */
+.forms-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.form-box {
+  flex: 1;
+  min-width: 400px;
+}
+
+button {
+  margin-top: 20px;
+  width: 50%; /* Button centered */
+}
+
+/* Adding security-related styling for icons */
+.security-icons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.security-icons img {
+  width: 80px;
+  margin: 10px;
+}

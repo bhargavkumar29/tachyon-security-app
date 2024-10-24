@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS  # Import CORS
 import random
 import re
-
 app = Flask(__name__)
 
 # Enable CORS for the /add_device endpoint only from http://localhost:5173
